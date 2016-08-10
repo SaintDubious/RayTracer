@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="SceneReader.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="UnitVector.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triplet.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="SceneReader.h" />
+    <ClInclude Include="UnitVector.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="VectorMath.h" />
+    <ClInclude Include="Light.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="balls.txt" />
+    <Text Include="busy.txt" />
+  </ItemGroup>
+</Project>
